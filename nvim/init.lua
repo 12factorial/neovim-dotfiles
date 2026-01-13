@@ -5,6 +5,7 @@ vim.pack.add({
     { src = 'https://github.com/ibhagwan/fzf-lua.git' },
     { src = 'https://github.com/norcalli/nvim-colorizer.lua.git' },
     { src = 'https://github.com/MeanderingProgrammer/render-markdown.nvim.git' },
+    { src = 'https://github.com/folke/flash.nvim.git' },
 })
 
 require('core.options')
@@ -16,3 +17,4 @@ require('plugins.alpha')
 require('plugins.fzf-lua')
 require('plugins.colorizer')
 require('plugins.render-markdown')
+-- require('plugins.flash') -- SET THIS UP!
