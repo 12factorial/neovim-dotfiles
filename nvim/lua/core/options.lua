@@ -1,3 +1,4 @@
+vim.o.clipboard = 'unnamedplus'
 vim.o.confirm = true
 vim.o.cursorline = true
 vim.o.ignorecase = true
@@ -10,6 +11,7 @@ vim.o.signcolumn = 'yes'
 vim.o.smartcase = true
 vim.o.splitbelow = true
 vim.o.splitright = true
+vim.o.termguicolors = true
 vim.o.undofile = true
 vim.o.virtualedit = 'block'
 vim.o.wrap = false

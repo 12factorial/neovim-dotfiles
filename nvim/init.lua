@@ -1,10 +1,10 @@
 vim.pack.add({
     -- Primary plugins.
-    { src = 'https://github.com/webhooked/polar.nvim.git', name = 'polar' }, -- Colorscheme of choice.
+    { src = 'https://github.com/rose-pine/neovim.git', name = 'rose-pine' }, -- Colorscheme of choice.
     { src = 'https://github.com/nvim-lualine/lualine.nvim.git' }, -- Better statusbar.
     { src = 'https://github.com/goolord/alpha-nvim.git' }, -- Pretty startup dashboard.
     { src = 'https://github.com/stevearc/oil.nvim.git' }, -- Neovim explorer & system file manager.
-    { src = 'https://github.com/OXY2DEV/markview.nvim.git' }, -- Render markdown in Neovim.
+    { src = 'https://github.com/MeanderingProgrammer/render-markdown.nvim.git' }, -- Render markdown in Neovim.
     { src = 'https://github.com/ibhagwan/fzf-lua.git' }, -- Fuzzy finder for files, buffers, etc.
     { src = 'https://github.com/norcalli/nvim-colorizer.lua.git' }, -- Highlight color codes.
 
@@ -15,9 +15,10 @@ vim.pack.add({
 require('core.options')
 require('core.keymaps')
 
-require('plugins.polar')
+require('plugins.rose-pine')
 require('plugins.lualine')
 require('plugins.alpha')
 require('plugins.oil')
+require('plugins.render-markdown')
 require('plugins.fzf-lua')
 require('plugins.colorizer')
