@@ -1,7 +1,15 @@
 vim.o.confirm = true
 vim.o.cursorline = true
+vim.o.ignorecase = true
 vim.o.number = true
 vim.o.relativenumber = true
+vim.o.scrolloff = 8
 vim.o.shiftwidth = 4
 vim.o.showmode = false
-vim.o.signcolumn = "yes"
+vim.o.signcolumn = 'yes'
+vim.o.smartcase = true
+vim.o.splitbelow = true
+vim.o.splitright = true
+vim.o.undofile = true
+vim.o.virtualedit = 'block'
+vim.o.wrap = false
