@@ -6,7 +6,7 @@ vim.pack.add({
     { src = 'https://github.com/stevearc/oil.nvim.git' }, -- Neovim explorer & system file manager.
     { src = 'https://github.com/MeanderingProgrammer/render-markdown.nvim.git' }, -- Render markdown in Neovim.
     { src = 'https://github.com/ibhagwan/fzf-lua.git' }, -- Fuzzy finder for files, buffers, etc.
-    { src = 'https://github.com/norcalli/nvim-colorizer.lua.git' }, -- Highlight color codes.
+    { src = 'https://github.com/catgoose/nvim-colorizer.lua.git' }, -- Highlight colors.
 
     -- Plugin dependencies.
     { src = 'https://github.com/nvim-tree/nvim-web-devicons.git' }, -- Optional icons for various plugins.
