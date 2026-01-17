@@ -1,6 +1,6 @@
 vim.pack.add({
     -- Primary plugins.
-    { src = 'https://github.com/mellow-theme/mellow.nvim.git', name = 'mellow' }, -- Colorscheme of choice.
+    { src = 'https://github.com/webhooked/kanso.nvim.git', name = 'kanso' }, -- Colorscheme of choice.
     { src = 'https://github.com/nvim-lualine/lualine.nvim.git' }, -- Better statusbar.
     { src = 'https://github.com/goolord/alpha-nvim.git' }, -- Pretty startup dashboard.
     { src = 'https://github.com/stevearc/oil.nvim.git' }, -- Neovim explorer & system file manager.
@@ -15,7 +15,7 @@ vim.pack.add({
 require('core.options')
 require('core.keymaps')
 
-require('plugins.mellow')
+require('plugins.kanso')
 require('plugins.lualine')
 require('plugins.alpha')
 require('plugins.oil')
