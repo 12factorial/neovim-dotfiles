@@ -1,5 +1,7 @@
-require('fzf-lua').setup({'telescope'})
+vim.pack.add{ { src = 'https://github.com/ibhagwan/fzf-lua.git' } }
 
-vim.keymap.set('n', '<leader>ff', '<CMD>FzfLua files<CR>')
-vim.keymap.set('n', '<leader>fb', '<CMD>FzfLua buffers<CR>')
-vim.keymap.set('n', '<leader>fg', '<CMD>FzfLua live_grep<CR>')
+require('fzf-lua').setup()
+
+vim.keymap.set('n', '<leader>ff', '<CMD>lua require("fzf-lua").files()<CR>')
+vim.keymap.set('n', '<leader>fg', '<CMD>lua require("fzf-lua").live_grep()<CR>')
+vim.keymap.set('n', '<leader>fb', '<CMD>lua require("fzf-lua").buffers()<CR>')

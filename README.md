@@ -1,11 +1,11 @@
-# 12!'s neovim configuration
-> [!IMPORTANT]
-> Requires neovim v0.12+
----
-- [ ] Add proper render-markdown support, or nicely ask for it to be added to the colorscheme.
-- [ ] Add a bufferline of some sorts.
-- [ ] Add an autopair plugin.
-- [ ] Add and figure out how the HELL treesitter works.
-- [ ] Gitsigns maybe, not sure yet.
-- [ ] Make alpha dashboard look pretty.
-- [ ] Add a linter, MAYBE.
+# TODO
+- [ ] Move line up & down keybinds.
+- [ ] Bufferline.
+- [ ] Buffer keybinds.
+- [ ] Autopairs plugin.
+- [ ] Proper markdown support.
+- [x] Prevent comments on newline.
+- [ ] Make the dashboard look pretty.
+- [ ] Treesitter, cuz yknow.
+- [ ] Maybe a file tree, not entirely sure on that yet.
+- [ ] Change window keybinds.

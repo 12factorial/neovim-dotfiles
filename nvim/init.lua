@@ -1,24 +1,10 @@
-vim.pack.add({
-    -- Primary plugins.
-    { src = 'https://github.com/webhooked/kanso.nvim.git', name = 'kanso' }, -- Colorscheme of choice.
-    { src = 'https://github.com/nvim-lualine/lualine.nvim.git' }, -- Better statusbar.
-    { src = 'https://github.com/goolord/alpha-nvim.git' }, -- Pretty startup dashboard.
-    { src = 'https://github.com/stevearc/oil.nvim.git' }, -- Neovim explorer & system file manager.
-    { src = 'https://github.com/MeanderingProgrammer/render-markdown.nvim.git' }, -- Render markdown in Neovim.
-    { src = 'https://github.com/ibhagwan/fzf-lua.git' }, -- Fuzzy finder for files, buffers, etc.
-    { src = 'https://github.com/catgoose/nvim-colorizer.lua.git' }, -- Highlight colors.
-
-    -- Plugin dependencies.
-    { src = 'https://github.com/nvim-tree/nvim-web-devicons.git' }, -- Optional icons for various plugins.
-})
-
 require('core.options')
 require('core.keymaps')
+require('core.autocmd')
 
-require('plugins.kanso')
-require('plugins.lualine')
-require('plugins.alpha')
-require('plugins.oil')
-require('plugins.render-markdown')
-require('plugins.fzf-lua')
-require('plugins.colorizer')
+require('plugins.colorscheme') -- Pretty colors, statusline and icons.
+require('plugins.alpha') -- Pretty startup screen.
+require('plugins.fzf-lua') -- Fuzzy finder.
+require('plugins.colorizer') -- Highlight color codes.
+require('plugins.render-markdown') -- Render markdown files.
+require('plugins.fterm') -- Floating terminal.
