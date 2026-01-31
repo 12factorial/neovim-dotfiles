@@ -20,7 +20,6 @@ require('nvim-web-devicons').setup({
     color_icons = false,
     override = {
 	["default_icon"] = {
-	    -- color = "#DDC7A1",
 	    name = "Default"
 	}
     }
